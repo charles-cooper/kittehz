@@ -29,7 +29,7 @@ welcomeGraphics =
     let dimensions = 90
         imgSize = 30
         elmLogo =
-          image imgSize imgSize "http://elm-lang.org/logo.png"
+          image imgSize imgSize "http://elm-lang.org/assets/logo.svg"
 
         elmsPerSide = dimensions // imgSize
 
