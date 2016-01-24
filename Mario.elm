@@ -101,9 +101,9 @@ view (w',h') mario =
           Left -> "left"
           Right -> "right"
 
-      src = "imgs/mario/"++ verb ++ "/" ++ dir ++ ".gif"
+      src = "imgs/kitty/"++ verb ++ "/" ++ dir ++ ".gif"
 
-      marioImage = image 35 35 src
+      marioImage = image 250 150 src
 
       groundY = 62 - h/2
 
