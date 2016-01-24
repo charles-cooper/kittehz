@@ -43,11 +43,13 @@ update (dt, keys) mario =
         |> physics dt
         |> Debug.watch "mario"
 
+scale : Float
+scale = 10.0
 
 jump : Keys -> Model -> Model
 jump keys mario =
-    if keys.y > 0 && mario.vy == 0
-      then { mario | vy = 6.0 }
+    if keys.y > 0 && mario.vy <= 0
+      then { mario | vy = 1.0 * scale }
       else mario
 
 
@@ -69,7 +71,7 @@ physics dt mario =
 walk : Keys -> Model -> Model
 walk keys mario =
     { mario |
-        vx = toFloat keys.x,
+        vx = scale * toFloat keys.x,
         dir =
           if keys.x < 0 then
             Left
