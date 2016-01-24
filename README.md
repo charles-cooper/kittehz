@@ -1,3 +1,7 @@
+# Mario .. evolved
+
+In this fork of Elm Examples, Mario has evolved into a cross between a kitty and Princess Saturn! See it in action at https://charles-cooper.github.io/kittehz
+
 # Elm Examples
 
 A collection of simple Elm projects.
@@ -13,8 +17,8 @@ After [installing Elm Platform](http://elm-lang.org/Install.elm), clone this
 repo:
 
 ```shell
-git clone https://github.com/evancz/elm-examples.git
-cd elm-examples
+git clone https://github.com/charles-cooper/kittehz.git
+cd kittehz
 ```
 
 And then start the reactor with the following command:
