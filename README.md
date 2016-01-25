@@ -1,6 +1,6 @@
 # Mario .. evolved
 
-In this fork of Elm Examples, Mario has evolved into a cross between a kitty and Princess Saturn! See it in action at https://charles-cooper.github.io/kittehz
+In ~~this fork of Elm Examples~~ the year 2222, Mario has evolved into a cross between a kitty and Princess Saturn! See him in action at https://charles-cooper.github.io/kittehz
 
 # Elm Examples
 
